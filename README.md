@@ -3,3 +3,4 @@
 - Naim Neman
 - David Cardozo
 - Ramón Pastré
+- Alejo Simos
