@@ -8,3 +8,55 @@ html {
   box-sizing: inherit;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    background-color: #fff;
+}
+
+/* Logo */
+.nav-logo {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    transition: color 0.5s ease;
+    border: 3px solid #000;
+}
+
+.nav-logo:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.nav-logo h1 {
+    margin: 0; 
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+}
+
+/* lista de navegación */
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Los links  */
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #000;
+}
+
