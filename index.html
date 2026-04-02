@@ -12,44 +12,57 @@
     <!-- Estilos -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+
     
     <link rel="icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
     <title>PULSE</title>
   </head>
   <body>
     <header class="main-header">
-      <nav class="navbar">
-          <a href="./index.html" class="nav-logo">
+      <nav class="nav">
+          <a href="./index.html" class="nav__logo">
               <h1>PULSE</h1>
           </a>
 
-          <ul class="nav-list">
-              <li><a href="./pages/equipo.html" class="nav-link">Gimnasio</a></li>
-              <li><a href="./pages/pedido.html" class="nav-link">Tienda</a></li>
-              <li><a href="./pages/contacto.html" class="nav-link">Contacto</a></li>
+          <ul class="nav__list">
+              <li><a href="./pages/equipo.html" class="nav__link">Gimnasio</a></li>
+              <li><a href="./pages/pedido.html" class="nav__link">Tienda</a></li>
+              <li><a href="./pages/contacto.html" class="nav__link">Contacto</a></li>
           </ul>
       </nav>
     </header>
     
     <main>
-      <div class="contenedor">
+
+      <div class="main-banner">
+        <div class="main-banner__promo">
+          <p><span>🎁</span> Miembros del gym: 15% OFF mensual en tienda</p>
+        </div>
+        <div class="main-banner__promo">
+          <p><span>%</span> Primera compra: 1 mes de membresía gratis</p>
+        </div>
+      </div>
+      
+      <div class="main-contenedor">
         <!-- Contenedor ambas columnas -->
-        <section> <!-- Columna izquierda -->
-          <img src="https://placehold.co/300x600" alt="placeholder Gimnasio" />
-          <h2>Gimnasio</h2>
-          <h3>Entrená con los mejores</h3>
-          <p>Comprá en nuestra tienda y ganás 1 mes GRATIS</p>
-          <a href="./pages/equipo.html">Conocer</a>
+        <section class="main-card main-card--gimnasio"> <!-- Columna izquierda -->
+
+          <img class="main-card__icon" src="./assets/favicon/dumbbell.svg" alt="Icono Gimnasio">
+
+          <h2 class="main-card__titulo">Gimnasio</h2>
+          <h3 class="main-card__subtitulo">Entrená con los mejores</h3>
+          <p class="main-card__info">Comprá en nuestra tienda y ganás 1 mes GRATIS</p>
+          <a class="main-card__boton" href="./pages/equipo.html">Conocer</a>
         </section>
 
-        <section> <!-- Columna derecha -->
-          <img src="https://placehold.co/300x600" alt="placeholder Tienda" />
-          <h2>Tienda</h2>
-          <h3>Equipate para ganar</h3>
-          <p>Miembros del gym: 15% OFF en TODOS los productos</p>
-          <a href="./pages/pedido.html">Comprar</a>
+        <section class="main-card main-card--tienda"> <!-- Columna derecha -->
+          <img class="main-card__icon" src="./assets/favicon/shopping_bag.svg" alt="Icono Tienda">
+          <h2 class="main-card__titulo">Tienda</h2>
+          <h3 class="main-card__subtitulo">Equipate para ganar</h3>
+          <p class="main-card__info">Miembros del gym: 15% OFF en TODOS los productos</p>
+          <a class="main-card__boton" href="./pages/pedido.html">Comprar</a>
         </section>
-    </div> <!-- Fin contenedor ambas columnas -->
+      </div> <!-- Fin contenedor ambas columnas -->
     </main>
 
     <footer>
