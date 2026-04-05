@@ -1,0 +1,64 @@
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 40px 10px 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 22px;
+}
+
+.footer-contenedor {
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.footer-enlaces ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-enlaces li {
+    margin-bottom: 10px;
+}
+
+.footer-enlaces a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-enlaces a:hover {
+    text-decoration: underline;
+}
+
+.footer-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-contacto ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-contacto li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-contacto img {
+    filter: invert(1);
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
