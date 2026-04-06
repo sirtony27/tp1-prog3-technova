@@ -3,9 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedido</title>
+
+    <!-- Fuente - googleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    
+    <link rel="icon" href="../assets/favicon/pulse-icon.svg" type="image/x-icon">
+
+    <title>PULSE : Entrena con nosotros</title>
 </head>
 <body>
+
+    <header class="main-header">
+      <nav class=
+      "nav">
+          <a href="../index.html" class="nav__logo">
+              <span class="logo-text">PULSE</span>
+          </a>
+
+          <ul class="nav__list">
+              <li><a href="../pages/servicios.html" class="nav__link">Gimnasio</a></li>
+              <li><a href="../pages/tienda.html" class="nav__link">Tienda</a></li>
+              <li><a href="../pages/pedido.html" class="nav__link nav__link--selected">Entrena con nosotros</a></li>
+              <li><a href="../pages/equipo.html" class="nav__link">Nosotros</a></li>
+              <li><a href="../pages/faq.html" class="nav__link">FAQ</a></li>
+              <li><a href="../pages/contacto.html" class="nav__link">Contacto</a></li>
+          </ul>
+      </nav>
+    </header>
+
+    <!-- Formulario para solicitar uno de los servicios establecidos en ‘servicios.html’.
+      Debe incluir distintos tipos de campos, por ejemplo:
+      ❖ campo de texto
+      ❖ teléfono
+      ❖ selector (select)
+      ❖ radio o checkbox
+      ❖ fecha
+      ❖ textarea para comentarios
+
+      Cada campo debe tener su label correspondiente y el formulario debe tener su botón de
+      envío y de reset.
+-->
+
+    <main>
+        <section class="main-banner main-banner--pedido">
+            <h1 class="main-banner__titulo">Entrená con PULSE</h1>
+            <p class="main-banner__descripcion">Completa el formulario para comenzar tu experiencia con nosotros.</p>
+        </section>
+
+        <section>
+            <div class="main-contenedor main-contenedor--pedido">            
+                <form action="pedido.html" method="post" class="formulario">
+                    <h2 class="formulario__titulo">Solicita tu servicio</h2>
+
+                    <div class="formulario__inputs">
+                        <div class="formulario__campo">
+                          <label class="formulario__label" for="nombre">Nombre</label>
+                          <input class="formulario__input" type="text" id="nombre" name="nombre" required>
+                        </div>
+
+                        <div class="formulario__campo">
+                          <label class="formulario__label" for="apellido">Apellido</label>
+                          <input class="formulario__input" type="text" id="apellido" name="apellido" required>
+                        </div>
+
+                        <div class="formulario__campo">
+                          <label class="formulario__label" for="email">Email</label>
+                          <input class="formulario__input" type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="formulario__campo">
+                          <label class="formulario__label" for="telefono">Teléfono</label>
+                          <input class="formulario__input" type="tel" id="telefono" name="telefono" required>
+                        </div>
+
+                        <div class="formulario__campo">
+                          <label class="formulario__label" for="servicio">Servicio</label>
+                          <select class="formulario__input" id="servicio" name="servicio" required>
+                              <option value="">Selecciona una Actividad</option>
+                              <option value="musculacion">Clases de Musculación</option>
+                              <option value="cardio">Clases de Calistenia</option>
+                              <option value="yoga">Clases de Yoga</option>
+                          </select>
+                        </div>
+
+                        <div class="formulario__campo">
+                          <label class="formulario__label" for="fecha">Fecha</label>
+                          <input class="formulario__input" type="date" id="fecha" name="fecha" required>
+                        </div>
+
+                        <div class="formulario__campo formulario__campo--opciones">
+                          <label class="formulario__label">Elije tu Plan de Membresía</label>
+                          
+                          <div class="formulario__grupo-radios">
+                            <label class="formulario__radio">
+                              <input class="formulario__radio-boton" type="radio" name="membresia" value="full" required>
+                              Pack Full - $120/mes
+                            </label>
+                            
+                            <label class="formulario__radio">
+                              <input class="formulario__radio-boton" type="radio" name="membresia" value="essential">
+                              Pack Essential - $75/mes
+                            </label>
+                            
+                            <label class="formulario__radio">
+                              <input class="formulario__radio-boton" type="radio" name="membresia" value="training">
+                              Pack Training - $95/mes
+                            </label>
+                          </div>
+                        </div>
+
+                        <div class="formulario__campo">
+                          <label class="formulario__label" for="comentarios">Agrega cualquier información adicional</label>
+                          <textarea class="formulario__input" id="comentarios" name="comentarios" rows="4"></textarea>
+                        </div>
+
+                        <div class="formulario__botones">
+                            <button type="submit" class="formulario__boton formulario__boton--enviar">Enviar</button>
+                            <button type="reset" class="formulario__boton">Resetear</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+      <div class="footer-contenedor">
+        
+        <div class="footer-info">
+            <p class="footer-titulo">PULSE</p>
+            <p>Fortaleciendo cuerpos, construyendo comunidad</p>
+        </div>
+        
+        <nav class="footer-enlaces">
+          <p class="footer-titulo">Enlaces</p>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../pages/equipo.html">Gimnasio</a></li>
+            <li><a href="../pages/tienda.html">Tienda</a></li>
+            <li><a href="../pages/contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+        
+        <section class="footer-contacto">
+          <p class="footer-titulo">Contacto</p>
+          <address>
+            <ul>
+              <li>
+                <img src="../assets/favicon/phone.svg" alt="">
+                <a href="tel:+541112345678">+54 11 1234-5678</a>
+              </li>
+              <li>
+                <img src="../assets/favicon/mail.svg" alt="">
+                <a href="mailto:info@pulse.com">info@pulse.com</a>
+              </li>
+              <li>
+                <img src="../assets/favicon/map-pin.svg" alt="">
+                <span>Av. Deportiva 1234</span>
+              </li>
+            </ul>
+          </address>
+        </section>
+          
+      </div>
+
+      <div class="footer-bottom">
+        <p><small>© 2026 Pulse. Todos los derechos reservados.</small></p>
+      </div>
+    </footer>
     
 </body>
 </html>

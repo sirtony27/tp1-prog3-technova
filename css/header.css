@@ -63,3 +63,7 @@
 .nav__link:hover {
     border-bottom: 3px solid #000;
 }
+
+.nav__link--selected {
+    border-bottom: 3px solid #000;
+}

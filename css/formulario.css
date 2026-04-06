@@ -1,0 +1,92 @@
+
+.formulario {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.formulario__titulo {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+    border-bottom: 3px solid #000;
+}
+
+.formulario-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.formulario__campo {
+    padding: 20px;
+}
+
+.formulario__input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #000;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.formulario__label {
+    display: block;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.formulario__campo--opciones {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario__grupo-radios {
+  display: flex;
+  width: 100%;
+}
+
+.formulario__radio {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid #000;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+
+.formulario__radio-boton {
+    display: none;
+}
+
+.formulario__radio:has(.formulario__radio-boton:checked) {
+  background-color: #000;
+  color: #fff;
+}
+
+.formulario__botones {
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.formulario__boton {
+    flex: 1;
+    padding: 10px 5px;
+    background-color: #000;
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.formulario__boton:hover {
+    background-color: #fff;
+    color: #000;
+}
