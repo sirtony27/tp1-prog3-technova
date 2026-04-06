@@ -1,0 +1,142 @@
+/* ==========================================================================
+   MÓDULO: TIENDA / PEDIDO (PULSE STYLE) - HARDWARE REVISED
+   ========================================================================== */
+
+.main-banner--tienda {
+    background-color: #000;
+    color: #fff;
+    padding: 100px 20px; /* Más aire para el título */
+    text-align: center;
+    border-bottom: 5px solid #000;
+}
+
+.main-banner__titulo {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 90px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.seccion-pedido {
+    padding: 80px 20px;
+    background-color: #f4f4f4;
+}
+
+.form-tech {
+    max-width: 700px;
+    margin: 0 auto;
+    border: 5px solid #000;
+    padding: 40px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+    font-family: sans-serif;
+}
+
+.label-fake {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* El botón de reset para que no rompa el diseño */
+.btn-reset {
+    background: none;
+    border: none;
+    text-decoration: underline;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* Galería de Productos */
+.main-contenedor--productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px; /* Espaciado entre tarjetas de productos */
+    padding: 80px 20px;
+    background-color: #fff;
+}
+
+.producto-card {
+    flex: 1 1 300px; /* Flex-grow, flex-shrink, basis */
+    max-width: 380px;
+    border: 5px solid #000;
+    padding: 25px;
+    text-align: center;
+    background-color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    transition: transform 0.3s ease;
+}
+
+.producto-card:hover {
+    transform: translateY(-5px); /* Efecto de elevación técnica */
+}
+
+.producto-card__img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-bottom: 5px solid #000;
+    margin-bottom: 20px;
+}
+
+.producto-card__titulo { 
+    font-size: 35px; 
+    margin: 15px 0 5px 0; 
+    text-transform: uppercase;
+}
+
+.producto-card__desc { 
+    font-family: sans-serif; 
+    font-size: 16px; 
+    color: #444; 
+    margin-bottom: 20px;
+}
+
+.producto-card__precio {
+    display: block;
+    background: #000;
+    color: #fff;
+    font-size: 30px;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+/* Formulario de Pedido */
+.seccion-pedido {
+    padding: 80px 20px;
+    background-color: #f4f4f4;
+    border-top: 5px solid #000;
+}
+
+.form-tech {
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 5px solid #000;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-control {
+    border: 4px solid #000; /* Borde más agresivo */
+    padding: 18px;
+    font-size: 20px;
+    font-family: sans-serif;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    background-color: #000;
+    color: #fff; /* Inversión de color al enfocar */
+}

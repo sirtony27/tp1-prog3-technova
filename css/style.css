@@ -1,7 +1,12 @@
-@import "header.css";
-@import "inicio.css";
-@import "footer.css";
-@import "servicios.css";
+/* css/style.css */
+@import url('normalize.css');
+@import url('header.css');   
+@import url('footer.css');
+@import url('inicio.css');
+@import url('servicios.css');
+@import url('pedido.css'); 
+@import url('contacto.css');  
+@import url('faq.css'); 
 
 
 /* Configuracion global box*/

@@ -1,11 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedido</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../assets/favicon/pulse-icon.svg">
+    <title>Tienda - PULSE</title>
 </head>
 <body>
-    
+
+    <header class="main-header">
+        <nav class="nav">
+            <a href="../index.html" class="nav__logo"><span class="logo-text">PULSE</span></a>
+            <ul class="nav__list">
+                <li><a href="servicios.html" class="nav__link">Gimnasio</a></li>
+                <li><a href="pedido.html" class="nav__link">Tienda</a></li>
+                <li><a href="equipo.html" class="nav__link">Nosotros</a></li>
+                <li><a href="faq.html" class="nav__link">FAQ</a></li>
+                <li><a href="contacto.html" class="nav__link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main-banner--tienda">
+            <h1 class="main-banner__titulo">TIENDA</h1>
+        </section>
+        <section class="productos-container">
+    <div class="main-contenedor--productos">
+
+        <article class="producto-card">
+            <img src="../assets/img/protein.jpg" alt="Proteína Whey" class="producto-card__img">
+            <h3 class="producto-card__titulo">Proteína Whey Pro</h3>
+            <p class="producto-card__desc">Recuperación muscular avanzada para atletas de élite.</p>
+            <span class="producto-card__precio">$65</span>
+        </article>
+
+        <article class="producto-card">
+            <img src="../assets/img/mancuernas.jpg" alt="Mancuernas Hexagonales" class="producto-card__img">
+            <h3 class="producto-card__titulo">Set Mancuernas Hex</h3>
+            <p class="producto-card__desc">Acero sólido de alta densidad para fuerza máxima.</p>
+            <span class="producto-card__precio">$120</span>
+        </article>
+
+        <article class="producto-card">
+            <img src="../assets/img/compresion.jpg" alt="Remera de Compresión" class="producto-card__img">
+            <h3 class="producto-card__titulo">Remera Compresión</h3>
+            <p class="producto-card__desc">Tecnología Astra para soporte muscular dinámico.</p>
+            <span class="producto-card__precio">$48</span>
+        </article>
+
+    </div>
+</section>
+<section class="seccion-pedido">
+    <h2 class="form-titulo">SOLICITAR PEDIDO</h2>
+    <form action="#" class="form-tech">
+        
+        <div class="form-group">
+            <label for="nombre">NOMBRE COMPLETO *</label>
+            <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Tu nombre" required>
+        </div>
+
+        <div class="form-group">
+            <label for="tel">TELÉFONO DE CONTACTO *</label>
+            <input type="tel" id="tel" name="tel" class="form-control" placeholder="Ej: +54 291 1234567" required>
+        </div>
+
+        <div class="form-group">
+            <label for="producto-select">PRODUCTO A SOLICITAR:</label>
+            <select id="producto-select" name="producto" class="form-control">
+                <option value="proteina">Proteína Whey Pro - $65</option>
+                <option value="mancuernas">Set Mancuernas Hex - $120</option>
+                <option value="remera">Remera Compresión Astra - $48</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p class="label-fake">MÉTODO DE ENTREGA:</p>
+            <div class="radio-group">
+                <label><input type="radio" name="entrega" value="envio" checked> Envío a Domicilio</label>
+                <label><input type="radio" name="entrega" value="retiro"> Retiro en Gym (Bahía Blanca)</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="fecha-pedido">FECHA ESTIMADA DE RETIRO:</label>
+            <input type="date" id="fecha-pedido" name="fecha" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="especificaciones">ESPECIFICACIONES (TALLE / SABOR):</label>
+            <textarea id="especificaciones" name="notas" class="form-control" rows="4" placeholder="Ej: Talle L, Proteína sabor Chocolate..."></textarea>
+        </div>
+
+        <div class="form-buttons">
+            <button type="submit" class="btn-gym">ENVIAR PEDIDO</button>
+            <button type="reset" class="btn-reset">LIMPIAR FORMULARIO</button>
+        </div>
+
+    </form>
+</section>
+
+        <section class="productos-container">
+            <div class="main-contenedor--productos">
+                </div>
+        </section>
+
+        <section class="seccion-pedido">
+            </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-contenedor">
+            <div class="footer-info">
+                <p class="footer-brand">PULSE</p>
+                <p>Fortaleciendo cuerpos, construyendo comunidad</p>
+            </div>
+            
+            <nav class="footer-enlaces">
+                <p class="footer-titulo">Enlaces</p>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Gimnasio</a></li>
+                    <li><a href="pedido.html">Tienda</a></li>
+                    <li><a href="equipo.html">Nosotros</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <section class="footer-contacto">
+                <p class="footer-titulo">Contacto</p>
+                <address>
+                    <ul>
+                        <li><img src="../assets/favicon/phone.svg" alt=""> +54 11 1234-5678</li>
+                        <li><img src="../assets/favicon/mail.svg" alt=""> info@pulse.com</li>
+                    </ul>
+                </address>
+            </section>
+        </div>
+    </footer>
+
 </body>
 </html>

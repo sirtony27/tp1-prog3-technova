@@ -3,58 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ - TechNova Gym</title>
-    <link rel="stylesheet" href="../CSS/style.css"> [cite: 107]
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../assets/favicon/pulse-icon.svg" type="image/x-icon">
+    <title>FAQ - PULSE</title>
 </head>
 <body>
 
-    <header>
-        <img src="../assets/technova_logo.png" alt="Logo TechNova" class="logo"> [cite: 34]
-        <nav> [cite: 47]
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="equipo.html">Nuestro Equipo</a></li>
-                <li><a href="pedido.html">Suscribirse</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+    <header class="main-header">
+        <nav class="nav">
+            <a href="../index.html" class="nav__logo">
+                <span class="logo-text">PULSE</span>
+            </a>
+            <ul class="nav__list">
+                <li><a href="servicios.html" class="nav__link">Gimnasio</a></li>
+                <li><a href="pedido.html" class="nav__link">Tienda</a></li>
+                <li><a href="equipo.html" class="nav__link">Nosotros</a></li>
+                <li><a href="faq.html" class="nav__link">FAQ</a></li>
+                <li><a href="contacto.html" class="nav__link">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <main> 
+    <main>
+        <section class="main-banner main-banner--faq">
+            <h1 class="main-banner__titulo">PREGUNTAS FRECUENTES</h1>
+            <p class="main-banner__descripcion">SOPORTE TÉCNICO PARA TU ENTRENAMIENTO</p>
+        </section>
+
         <section class="faq-section">
-            <h1>Preguntas Frecuentes</h1>
-            
-            <article class="faq-card"> [cite: 102]
-                <h3>¿Cuáles son los horarios de apertura?</h3>
-                <p>Abrimos de lunes a viernes de 06:00 a 22:00, y sábados de 08:00 a 14:00.</p>
-            </article>
+            <div class="main-contenedor--faq">
+                
+                <article class="faq-item">
+                    <h3 class="faq-pregunta">1. ¿CÓMO SELECCIONO MI TALLE DE ROPA ASTRA?</h3>
+                    <p class="faq-respuesta">Nuestras prendas son de alta compresión. Recomendamos revisar la tabla de talles en la descripción del producto o enviarnos tus medidas (tórax y cintura) vía el formulario de contacto para un ajuste de éllite.</p>
+                </article>
 
-            <article class="faq-card">
-                <h3>¿Necesito apto médico para empezar?</h3>
-                <p>Sí, la seguridad es nuestra prioridad. Debes presentar un certificado médico vigente.</p>
-            </article>
+                <article class="faq-item">
+                    <h3 class="faq-pregunta">2. ¿TIENEN ENVÍOS A TODO EL PAÍS?</h3>
+                    <p class="faq-respuesta">Afirmativo. Despachamos equipamiento y suplementos a toda Argentina. En Bahía Blanca, podés optar por retiro en el "Kernel" (nuestra sucursal central) sin costo adicional.</p>
+                </article>
 
-            <article class="faq-card">
-                <h3>¿Los planes incluyen asesoría nutricional?</h3>
-                <p>El Pack Full incluye una consulta mensual con nuestro equipo de nutrición.</p>
-            </article>
+                <article class="faq-item">
+                    <h3 class="faq-pregunta">3. ¿QUÉ INCLUYE LA MEMBRESÍA DE GIMNASIO?</h3>
+                    <p class="faq-respuesta">Acceso total a la zona de fuerza, racks de potencia y asesoría técnica inicial. Los planes avanzados incluyen programación de Powerlifting personalizada y logs de seguimiento de progreso.</p>
+                </article>
 
-            <article class="faq-card">
-                <h3>¿Cómo puedo cancelar mi membresía?</h3>
-                <p>Podés gestionarlo directamente desde nuestra oficina en la sucursal Caballito.</p>
-            </article>
+                <article class="faq-item">
+                    <h3 class="faq-pregunta">4. ¿CUÁL ES LA POLÍTICA DE DEVOLUCIONES?</h3>
+                    <p class="faq-respuesta">Si el hardware (suplementos o ropa) presenta fallas de origen, tenés 30 días para realizar el cambio. El producto debe estar en su empaque original y sin commits de uso previo.</p>
+                </article>
 
-            <article class="faq-card">
-                <h3>¿Tienen clases de prueba?</h3>
-                <p>¡Claro! La primera clase de funcional o musculación es totalmente gratuita.</p>
-            </article>
+                <article class="faq-item">
+                    <h3 class="faq-pregunta">5. ¿PUEDO ENTRENAR SI SOY PRINCIPIANTE?</h3>
+                    <p class="faq-respuesta">PULSE está diseñado para todos los niveles, desde el "Hello World" del fitness hasta atletas de competición. Nuestros entrenadores ajustarán las cargas a tu capacidad actual.</p>
+                </article>
+
+            </div>
         </section>
     </main>
 
-    <footer> 
-        <p>&copy; 2026 TechNova Solutions - Grupo 20 - UTN FRBB</p> 
+    <footer class="footer">
+        <div class="footer-contenedor">
+            <div class="footer-info">
+                <p class="footer-brand">PULSE</p>
+                <p>Fortaleciendo cuerpos, construyendo comunidad</p>
+            </div>
+            
+            <nav class="footer-enlaces">
+                <p class="footer-titulo">Enlaces</p>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Gimnasio</a></li>
+                    <li><a href="pedido.html">Tienda</a></li>
+                    <li><a href="equipo.html">Nosotros</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <section class="footer-contacto">
+                <p class="footer-titulo">Contacto</p>
+                <address>
+                    <ul>
+                        <li><img src="../assets/favicon/phone.svg" alt=""> +54 11 1234-5678</li>
+                        <li><img src="../assets/favicon/mail.svg" alt=""> info@pulse.com</li>
+                    </ul>
+                </address>
+            </section>
+        </div>
     </footer>
 
 </body>
