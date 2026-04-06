@@ -1,0 +1,16 @@
+@import "header.css";
+@import "inicio.css";
+@import "footer.css";
+@import "servicios.css";
+
+
+/* Configuracion global box*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
