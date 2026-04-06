@@ -1,0 +1,253 @@
+
+.main-banner--servicios {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/img/banner-servicios.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-banner--servicios .main-banner__titulo {
+    font-family: "Bebas Neue", sans-serif;
+    color: #fff;
+    font-size: 120px;
+    text-transform: uppercase;
+    border: 10px solid #fff;
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+.main-banner--servicios .main-banner__descripcion {
+    font-family: "Bebas Neue", sans-serif;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: 3px solid #fff;
+    display: inline-block;
+}
+
+.servicios {
+    border-bottom: 5px solid #000;
+    padding: 50px 0;
+}
+
+.servicios__titulo {
+    font-family: "Bebas Neue", sans-serif;
+    color: #000;
+    font-size: 50px;
+    margin: 10px 40px;
+    border-bottom: 3px solid #000;
+}
+
+.main-contenedor--servicios {
+    padding: 20px 40px;
+    gap: 30px;
+    min-height: auto;
+
+    display: flex;
+    justify-content: center; 
+    align-items: stretch;
+    margin: 0 auto;
+}
+
+.servicios-card {
+    flex: 1;
+    background-color: #fff;
+    border: 5px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+
+    font-family: "Bebas Neue", sans-serif;
+    color: #000;
+}
+
+.servicios-card__titulo {
+    font-size: 35px;
+    margin: 15px 0 0 0;
+}
+
+.servicios-card__descripcion {
+    font-size: 18px;
+}
+
+.servicios-card__icon {
+    width: 60px;
+    height: 60px;
+}
+
+.servicios-card:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.servicios-card:hover .servicios-card__icon {
+    filter: invert(1);
+}
+
+
+.membresias {
+    border-bottom: 5px solid #000;
+    padding: 50px 0;
+}
+
+.membresias__titulo {
+    font-family: "Bebas Neue", sans-serif;
+    color: #000;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-contenedor--membresias {
+    display: flex;
+    justify-content: center; 
+    align-items: stretch;
+    gap: 30px;
+    padding: 20px 40px;
+    margin: 0 auto;
+}
+
+.membresias-card {
+    flex: 1;
+    background-color: #fff;
+    border: 5px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+
+    font-family: "Bebas Neue", sans-serif;
+    color: #000;
+}
+
+.membresias-card__header {
+    border-bottom: 2px solid #000;
+    width: 100%;
+}
+
+.membresias-card__titulo {
+    font-size: 35px;
+    margin: 15px 0 0 0;
+}
+
+.membresias-card__precio {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.membresias-card__precio span {
+    font-size: 45px;
+    color: #000;
+}
+
+.membresias-card__lista {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.membresias-card__lista li {
+    margin-bottom: 15px;
+}
+
+.membresias-card__boton {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #000;
+    font-size: 25px;
+    border: 4px solid #000;
+    margin-top: auto;
+}
+
+.membresias-card:hover {
+    filter: invert(1);
+}
+
+.sucursales {
+    border-bottom: 5px solid #000;
+    padding: 50px 0;
+}
+
+.sucursales__titulo {
+    font-family: "Bebas Neue", sans-serif;
+    color: #000;
+    font-size: 50px;
+    margin: 10px 40px;
+    border-bottom: 3px solid #000;
+}
+
+.main-contenedor--sucursales {
+    padding: 20px 40px;
+    gap: 30px;
+    min-height: auto;
+
+    display: flex;
+    justify-content: center; 
+    align-items: stretch;
+    margin: 0 auto;
+}
+
+.sucursales-card {
+    flex: 1;
+    background-color: #fff;
+    border: 5px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+
+    font-family: "Bebas Neue", sans-serif;
+    color: #000;
+}
+
+.sucursales-card__header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 2px solid #000;
+    width: 100%;
+}
+
+.sucursales-card__icon {
+    width: 44px;
+    height: 44px;
+}
+
+.sucursales-card__titulo {
+    font-size: 35px;
+    margin: 15px 0 0 0;
+}
+.sucursales-card__direccion {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.sucursales-card__lista {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    font-size: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    padding: 10px;
+}
+
+.sucursales-card__lista li {
+    border: 2px solid #000;
+    padding: 5px 5px;
+}
