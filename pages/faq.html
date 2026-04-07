@@ -1,135 +1,144 @@
 <!doctype html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Fuente - googleFonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Estilos -->
-    <link rel="stylesheet" href="../css/style.css">
+  <!-- Fuente - googleFonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
-    
-    <link rel="icon" href="../assets/favicon/pulse-icon.svg" type="image/x-icon">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="../css/style.css">
 
-    <title>PULSE : FAQ</title>
+
+  <link rel="icon" href="../assets/favicon/pulse-icon.svg" type="image/x-icon">
+
+  <title>PULSE : FAQ</title>
 </head>
+
 <body>
 
-    <header class="main-header">
-      <nav class=
-      "nav">
-          <a href="../index.html" class="nav__logo">
-              <span class="logo-text">PULSE</span>
-          </a>
+  <header class="main-header">
+    <nav class="nav">
+      <a href="../index.html">
+        <img id="pulse-logo" src="../assets/img/logo.svg" alt="Ir a la página principal">
+      </a>
 
-          <ul class="nav__list">
-              <li><a href="../pages/servicios.html" class="nav__link">Gimnasio</a></li>
-              <li><a href="../pages/tienda.html" class="nav__link">Tienda</a></li>
-              <li><a href="../pages/pedido.html" class="nav__link">Entrena con nosotros</a></li>
-              <li><a href="../pages/equipo.html" class="nav__link">Nosotros</a></li>
-             <li><a href="../pages/faq.html" class="nav__link nav__link--selected">FAQ</a></li>
-              <li><a href="../pages/contacto.html" class="nav__link">Contacto</a></li>
-          </ul>
+      <ul class="nav__list">
+        <li><a href="../pages/servicios.html" class="nav__link">Gimnasio</a></li>
+        <li><a href="../pages/tienda.html" class="nav__link">Tienda</a></li>
+        <li><a href="../pages/pedido.html" class="nav__link">Entrena con nosotros</a></li>
+        <li><a href="../pages/equipo.html" class="nav__link">Nosotros</a></li>
+        <li><a href="../pages/faq.html" class="nav__link nav__link--selected">FAQ</a></li>
+        <li><a href="../pages/contacto.html" class="nav__link">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+  <main>
+
+    <section class="main-banner main-banner--faq">
+      <h1 class="main-banner__titulo">Preguntas Frecuentes</h1>
+      <p class="main-banner__descripcion">Respuestas a las preguntas más comunes sobre nuestros servicios y productos.
+      </p>
+    </section>
+
+    <section class="faq">
+      <div class="main-contenedor main-contenedor--faq">
+        <article class="faq-card">
+          <h2 class="faq-card__pregunta">¿Cómo puedo inscribirme en el gimnasio?</h2>
+          <p class="faq-card__respuesta">Puedes inscribirte visitando nuestra página de inscripción o acercándote a
+            nuestras instalaciones para recibir asesoramiento personalizado.</p>
+        </article>
+
+        <article class="faq-card">
+          <h2 class="faq-card__pregunta">¿Qué métodos de pago aceptan en la tienda?</h2>
+          <p class="faq-card__respuesta">Aceptamos tarjetas de crédito, débito y pagos a través de plataformas digitales
+            como PayPal.</p>
+        </article>
+
+        <article class="faq-card">
+          <h2 class="faq-card__pregunta">¿Ofrecen planes de entrenamiento personalizados?</h2>
+          <p class="faq-card__respuesta">Sí, contamos con entrenadores certificados que pueden diseñar un plan de
+            entrenamiento adaptado a tus objetivos y necesidades.</p>
+        </article>
+
+        <article class="faq-card">
+          <h2 class="faq-card__pregunta">¿Cuál es su política de devoluciones para productos de la tienda?</h2>
+          <p class="faq-card__respuesta">Ofrecemos una política de devolución de 30 días para productos no usados y en
+            su empaque original. Para más detalles, consulta nuestra página de devoluciones.</p>
+        </article>
+
+        <article class="faq-card">
+          <h2 class="faq-card__pregunta">¿Tienen horarios especiales durante los días festivos?</h2>
+          <p class="faq-card__respuesta">Sí, durante los días festivos nuestros horarios pueden variar. Te recomendamos
+            consultar nuestro calendario de horarios en la página de contacto para estar al tanto de cualquier cambio.
+          </p>
+        </article>
+
+      </div>
+
+
+    </section>
+
+    <section class="faq-contacto">
+      <h2 class="faq-contacto__titulo">Si tienen alguna otra pregunta, no duden en contactarnos.</h2>
+      <a class="faq-contacto__enlace" href="../pages/contacto.html">Contactanos</a>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <div class="footer-contenedor">
+
+      <div class="footer-info">
+        <p class="footer-titulo">PULSE</p>
+        <p>Fortaleciendo cuerpos, construyendo comunidad</p>
+      </div>
+
+      <nav class="footer-enlaces">
+        <p class="footer-titulo">Enlaces</p>
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="../pages/equipo.html">Gimnasio</a></li>
+          <li><a href="../pages/tienda.html">Tienda</a></li>
+          <li><a href="../pages/contacto.html">Contacto</a></li>
+        </ul>
       </nav>
-    </header>
-    
 
-
-    <main>
-      
-      <section class="main-banner main-banner--faq">
-          <h1 class="main-banner__titulo">Preguntas Frecuentes</h1>
-          <p class="main-banner__descripcion">Respuestas a las preguntas más comunes sobre nuestros servicios y productos.</p>
-      </section>
-
-      <section class="faq">
-        <div class="main-contenedor main-contenedor--faq">
-          <article class="faq-card">
-            <h2 class="faq-card__pregunta">¿Cómo puedo inscribirme en el gimnasio?</h2>
-            <p class="faq-card__respuesta">Puedes inscribirte visitando nuestra página de inscripción o acercándote a nuestras instalaciones para recibir asesoramiento personalizado.</p>
-          </article>
-
-          <article class="faq-card">
-            <h2 class="faq-card__pregunta">¿Qué métodos de pago aceptan en la tienda?</h2>
-            <p class="faq-card__respuesta">Aceptamos tarjetas de crédito, débito y pagos a través de plataformas digitales como PayPal.</p>
-          </article>
-
-          <article class="faq-card">
-            <h2 class="faq-card__pregunta">¿Ofrecen planes de entrenamiento personalizados?</h2>
-            <p class="faq-card__respuesta">Sí, contamos con entrenadores certificados que pueden diseñar un plan de entrenamiento adaptado a tus objetivos y necesidades.</p>
-          </article>
-
-          <article class="faq-card">
-            <h2 class="faq-card__pregunta">¿Cuál es su política de devoluciones para productos de la tienda?</h2>
-            <p class="faq-card__respuesta">Ofrecemos una política de devolución de 30 días para productos no usados y en su empaque original. Para más detalles, consulta nuestra página de devoluciones.</p>
-          </article>
-
-          <article class="faq-card">
-            <h2 class="faq-card__pregunta">¿Tienen horarios especiales durante los días festivos?</h2>
-            <p class="faq-card__respuesta">Sí, durante los días festivos nuestros horarios pueden variar. Te recomendamos consultar nuestro calendario de horarios en la página de contacto para estar al tanto de cualquier cambio.</p>
-          </article>
-          
-        </div>
-        
-        
-      </section>
-      
-      <section class="faq-contacto"> 
-        <h2 class="faq-contacto__titulo">Si tienen alguna otra pregunta, no duden en contactarnos.</h2>
-        <a class="faq-contacto__enlace" href="../pages/contacto.html">Contactanos</a>
-      </section>
-
-
-    </main>
-
-    <footer>
-      <div class="footer-contenedor">
-        
-        <div class="footer-info">
-            <p class="footer-titulo">PULSE</p>
-            <p>Fortaleciendo cuerpos, construyendo comunidad</p>
-        </div>
-        
-        <nav class="footer-enlaces">
-          <p class="footer-titulo">Enlaces</p>
+      <section class="footer-contacto">
+        <p class="footer-titulo">Contacto</p>
+        <address>
           <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../pages/equipo.html">Gimnasio</a></li>
-            <li><a href="../pages/tienda.html">Tienda</a></li>
-            <li><a href="../pages/contacto.html">Contacto</a></li>
+            <li>
+              <img src="../assets/favicon/phone.svg" alt="">
+              <a href="tel:+541112345678">+54 11 1234-5678</a>
+            </li>
+            <li>
+              <img src="../assets/favicon/mail.svg" alt="">
+              <a href="mailto:info@pulse.com">info@pulse.com</a>
+            </li>
+            <li>
+              <img src="../assets/favicon/map-pin.svg" alt="">
+              <span>Av. Deportiva 1234</span>
+            </li>
           </ul>
-        </nav>
-        
-        <section class="footer-contacto">
-          <p class="footer-titulo">Contacto</p>
-          <address>
-            <ul>
-              <li>
-                <img src="../assets/favicon/phone.svg" alt="">
-                <a href="tel:+541112345678">+54 11 1234-5678</a>
-              </li>
-              <li>
-                <img src="../assets/favicon/mail.svg" alt="">
-                <a href="mailto:info@pulse.com">info@pulse.com</a>
-              </li>
-              <li>
-                <img src="../assets/favicon/map-pin.svg" alt="">
-                <span>Av. Deportiva 1234</span>
-              </li>
-            </ul>
-          </address>
-        </section>
+        </address>
+      </section>
 
-          
-      </div>
 
-      <div class="footer-bottom">
-        <p><small>© 2026 Pulse. Todos los derechos reservados.</small></p>
-      </div>
-    </footer>
+    </div>
+
+    <div class="footer-bottom">
+      <p><small>© 2026 Pulse. Todos los derechos reservados.</small></p>
+    </div>
+  </footer>
 </body>
+
 </html>
