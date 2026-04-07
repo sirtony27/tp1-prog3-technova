@@ -3,23 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
-    <title>PULSE</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="./assets/favicon/pulse-icon.svg" type="image/x-icon">
+    <title>PULSE | Gimnasio y Tienda Deportiva</title>
   </head>
   <body>
-    <header>
-      <h1>PULSE</h1>
-      <nav>
-        <!-- Inicio barra de navegacion -->
-        <ul>
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./pages/equipo.html">Equipo</a></li>
-        </ul>
-        <ul>
-            <li><a href="./pages/pedido.html">Tienda</a></li>
-            <li><a href="./pages/contacto.html">Contacto</a></li>
-        </ul>
+
+    <header class="main-header">
+      <nav class="nav">
+          <a href="./index.html" class="nav__logo">
+              <span class="logo-text">PULSE</span>
+          </a>
+
+          <ul class="nav__list">
+              <li><a href="./pages/servicios.html" class="nav__link">Gimnasio</a></li>
+              <li><a href="./pages/tienda.html" class="nav__link">Tienda</a></li>
+              <li><a href="./pages/pedido.html" class="nav__link">Entrena con nosotros</a></li>
+              <li><a href="./pages/equipo.html" class="nav__link">Nosotros</a></li>
+              <li><a href="./pages/faq.html" class="nav__link">FAQ</a></li>
+              <li><a href="./pages/contacto.html" class="nav__link">Contacto</a></li>
+          </ul>
       </nav>
       <!-- ## Fin barra de navegacion -->
     </header>
@@ -34,19 +43,73 @@
         <p>Comprá en nuestra tienda y ganás 1 mes GRATIS</p>
         <a href="./pages/equipo.html">Conocer</a>
       </section>
+      
+      <section>
+        <div class="main-contenedor">
+          
+          <article class="main-card main-card--gimnasio">
+            <img class="main-card__icon" src="./assets/favicon/dumbbell.svg" alt="">
+            <h2 class="main-card__titulo">Gimnasio</h2>
+            <h3 class="main-card__subtitulo">Entrená con los mejores</h3>
+            <a class="main-card__boton" href="./pages/servicios.html">Explorar</a>
+          </article>
 
-      <section> <!-- Columna derecha -->
-        <img src="https://placehold.co/300x600" alt="placeholder Tienda" />
-        <h2>Tienda</h2>
-        <h3>Equipate para ganar</h3>
-        <p>Miembros del gym: 15% OFF en TODOS los productos</p>
-        <a href="./pages/pedido.html">Comprar</a>
+          <article class="main-card main-card--tienda">
+            <img class="main-card__icon" src="./assets/favicon/shopping_bag.svg" alt="">
+            <h2 class="main-card__titulo">Tienda</h2>
+            <h3 class="main-card__subtitulo">Equipate para ganar</h3>
+            <a class="main-card__boton" href="./pages/tienda.html">Comprar</a>
+          </article>
+
+        </div>
       </section>
     </div> <!-- Fin contenedor ambas columnas -->
     </main>
 
     <footer>
-      <p>© 2026 Pulse. Todos los derechos reservados.</p>
+      <div class="footer-contenedor">
+        
+        <div class="footer-info">
+            <p class="footer-brand">PULSE</p>
+            <p>Fortaleciendo cuerpos, construyendo comunidad</p>
+        </div>
+        
+        <nav class="footer-enlaces">
+          <p class="footer-titulo">Enlaces</p>
+          <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./pages/servicios.html">Gimnasio</a></li>
+            <li><a href="./pages/tienda.html">Tienda</a></li>
+            <li><a href="./pages/contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+        
+        <section class="footer-contacto">
+          <p class="footer-titulo">Contacto</p>
+          <address>
+            <ul>
+              <li>
+                <img src="./assets/favicon/phone.svg" alt="">
+                <a href="tel:+541112345678">+54 11 1234-5678</a>
+              </li>
+              <li>
+                <img src="./assets/favicon/mail.svg" alt="">
+                <a href="mailto:info@pulse.com">info@pulse.com</a>
+              </li>
+       
+              <li>
+                <img src="./assets/favicon/map-pin.svg" alt="">
+                <span>Av. Deportiva 1234</span>
+              </li>
+            </ul>
+          </address>
+        </section>
+          
+      </div>
+
+      <div class="footer-bottom">
+        <p><small>© 2026 Pulse. Todos los derechos reservados.</small></p>
+      </div>
     </footer>
   </body>
 </html>

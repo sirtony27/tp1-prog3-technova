@@ -1,0 +1,24 @@
+
+.main-banner--pedido {
+    background-color: #000;
+    height: auto;
+    max-height: 250px;
+    padding: 30px;
+}
+
+.main-banner--pedido .main-banner__titulo {
+    color: #fff;
+    margin-bottom: 0;
+    border: 2px solid #fff;
+    display: inline-block;
+}
+
+.main-banner--pedido .main-banner__descripcion {
+    color: #fff;
+}
+
+.main-contenedor--pedido {
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px;
+}

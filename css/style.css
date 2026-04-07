@@ -1,0 +1,24 @@
+@import "normalize.css";
+@import "header.css";
+@import "inicio.css";
+@import "footer.css";
+@import "servicios.css";
+@import "contacto.css";
+@import "tienda.css";
+@import "equipo.css";
+@import "faq.css";  
+@import "pedido.css";
+@import "formulario.css";
+@import "contacto.css";
+
+
+/* Configuracion global box*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
