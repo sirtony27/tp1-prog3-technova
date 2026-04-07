@@ -5,6 +5,9 @@
     padding: 60px 20px;
     border-bottom: 5px solid #000;
     margin: 0 auto;
+
+    height: auto;
+    max-height: 400px;
 }
 
 .main-banner__titulo {

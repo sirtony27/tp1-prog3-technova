@@ -100,6 +100,8 @@
 
 .servicios-card__boton:hover {
     cursor: pointer;
+    background-color: #000;
+    color: #fff;
 }
 
 
