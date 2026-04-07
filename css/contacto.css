@@ -1,0 +1,68 @@
+.main-banner--contacto {
+    background-color: #000;
+    height: auto;
+    max-height: 250px;
+    padding: 30px;
+}
+
+.main-banner--contacto .main-banner__titulo {
+    color: #fff;
+    margin-bottom: 0;
+    border: 2px solid #fff;
+    display: inline-block;
+}
+
+.main-banner--contacto .main-banner__descripcion {
+    color: #fff;
+}
+
+.main-contenedor--contacto {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.contacto {
+    margin: 0 auto;
+}
+
+.contacto-info__lista {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.contacto-info__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 30px;
+    border: 2px solid #000;
+}
+
+.contacto-info__titulo {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.contacto-info__img {
+    width: 40px;
+    height: 40px;
+}
+
+.contacto-info__link {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+

@@ -1,0 +1,74 @@
+
+.main-banner--tienda {
+
+    background-color: #000;
+    border: 3px solid #fff;
+}
+
+.main-banner--tienda .main-banner__titulo {
+    color: #fff;
+    border: 2px solid #fff;
+    display: inline-block;
+}
+
+.main-banner--tienda .main-banner__descripcion {
+    color: #fff;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+
+.tienda {
+    border-bottom: 5px solid #000;
+    padding: 50px 0;
+}
+
+.tienda__titulo {
+    font-family: "Bebas Neue", sans-serif;
+    color: #000;
+    font-size: 50px;
+    margin: 10px 40px;
+    border-bottom: 3px solid #000;
+}
+
+
+.main-contenedor--tienda {
+    padding: 10px 40px;
+    gap: 20px;
+    min-height: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center; 
+    align-items: stretch;
+}
+
+
+.tienda-card {
+    background-color: #fff;
+    border: 5px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 30px;
+
+    font-family: "Bebas Neue", sans-serif;
+    color: #000;
+}
+
+.tienda-card__titulo {
+    font-size: 35px;
+    margin: 15px 0 0 0;
+}
+
+.tienda-card__precio {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.tienda-card__img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
